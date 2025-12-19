@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+
+@theme {
+
+  /* Old Test Colors */
+  /* --color-john: #C43E53;
+  --color-john-200: #F6DBDD;
+  --color-john-300: #ECA8AE;
+  --color-john-400: #E56E7D;
+  --color-john-600: #8A2939;
+  --color-john-700: #541520;
+  --color-john-800: #26060A;
+
+  --color-petru: #8e663f;
+  --color-petru-200: #f5dccb;
+  --color-petru-300: #ECAC6D;
+  --color-petru-400: #bc8855;
+  --color-petru-600: #634629;
+  --color-petru-700: #3b2816;
+  --color-petru-800: #190f06; */
+
+  /* COLORS */
+  --color-lif2: #FEE8C2;
+  --color-lif: #D2555A;
+  --color-lif-800: #340F11;
+  --color-lif-700: #652527;
+  --color-lif-600: #9a3c40;
+  --color-lif-400: #dc8f91;
+  --color-lif-300: #e9c1c2;
+  --color-lif-200: #f9eeef;
+  --color-lif-foot: #7C6465;
+
+  /* TYPOGRAPHY */
+  
+  /* DEFAULT FONTS */
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* FONT WEIGHTS */
+  --font-thin: font-weight: 100;
+  --font-extralight: font-weight: 200;
+  --font-light: font-weight: 300;
+  --font-normal: font-weight: 400;
+  --font-medium: font-weight: 500;
+  --font-semibold: font-weight: 600;
+  --font-bold: font-weight: 700;
+  --font-extrabold: font-weight: 800;
+  --font-black: font-weight: 900;
+  
+  /* FONT SIZES */
+  --text-tiny: 0.6875rem; 
+  --text-mid: 0.875rem;
+  --text-bigger: 2.75rem; 
+
+  /* SPACING */
+  --spacing: 0.25rem;    /* 4px */
+  --spacing-4: 1rem;     /* 16px */
+  --spacing-8: 2rem;     /* 32px */
+  --spacing-10: 2.5rem;  /* 40px */
+  --spacing-12: 3rem;    /* 48px */
+  --spacing-16: 4rem;    /* 64px */
+  
+  --spacing-page-x: 1.5rem;   /* 24px */
+  --spacing-section-y: 5rem;    /* 80px */
+  --spacing-section-lg: 10rem;   /* 160px */
+
+
+}
+  
+  @layer base {
+    body {
+      @apply font-sans;
+    }
+  }

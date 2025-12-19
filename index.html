@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Tailwind CLI Example</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-50">
+
+    <header
+  class="flex flex-col md:flex-row items-center justify-between px-page-x md:px-10 py-4 gap-4"
+  style="background: linear-gradient(to right, var(--color-lif2), var(--color-lif-400));"
+>
+  <!-- left of nav -->
+  <div class="flex items-center gap-6 text-lg">
+    <div class="w-16 h-16 rounded-full overflow-hidden bg-white/10 border border-black/10">
+      <img src="images/tree1.png" class="w-full h-full object-cover" />
+    </div>
+
+    <a href="#" class="hover:underline px-2">Home</a>
+    <a href="#" class="hover:underline px-2">About</a>
+    <a href="#" class="hover:underline px-2">Contact</a>
+    <a href="#" class="hover:underline px-2 font-bold">LIF</a>
+  </div>
+
+
+  <!-- right of nav -->
+  <div class="flex items-center gap-4">
+    <button class="px-4 py-2 text-white rounded-full"
+    style="background-color: var(--color-lif);"
+    >
+    Login
+  </button>
+    <button
+      class="px-4 py-2 text-white rounded-full"
+      style="background-color: var(--color-lif);"
+    >
+      Sign Up
+    </button>
+  </div>
+</header>
+
+    <div
+      class="flex items-center justify-center w-full text-center py-section-y"
+      style="background: linear-gradient(to top, var(--color-lif-200), var(--color-lif-400));">
+    <section
+  class="flex items-center justify-center w-full text-center py-section-y">
+  <div class="max-w-3xl px-page-x">
+    <h1 class="text-4xl font-bold mb-6 text-lif-700" >
+      LIF IS ABOUT YOU!
+    </h1>
+
+    <p class="text-lg font-medium mb-2 text-lif-600">
+      Our apps main focus is to make you feel more comfortable, safe and
+      acknowledged.
+    </p>
+
+    <p class="text-lg font-medium mb-6 text-lif-600">
+      We want to create a space where you can express your feelings and let
+      us help you work through them!
+    </p>
+
+      <button
+        class="text-white px-6 py-2 rounded-full hover:opacity-90"
+        style="background-color: var(--color-lif);"
+      >
+      Learn More
+      </button>
+    </div>
+  </section>
+</div>
+
+
+    <div
+      class="flex justify-center items-center gap-12 pt-4 pb-4"
+      style="
+        background: linear-gradient(
+          to bottom,
+          var(--color-lif-200),
+          var(--color-lif-300)
+        );
+      "
+    >
+    <section class="flex flex-col md:flex-row justify-center items-center gap-12 pb-section-y md:pb-section-lg px-page-x">
+      <div class="flex flex-col items-center">
+        <img src="images/streaks.png" alt="" class="w-72 object-contain" />
+        <img
+          src="images/textbox1.png"
+          alt="Text box"
+          class="mt-2 w-60 object-contain"
+        />
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img
+          src="images/textbox2.png"
+          alt="Text box"
+          class="mb-2 w-60 object-contain"
+        />
+        <img
+          src="images/calendar.png"
+          alt=""
+          class="w-72 object-contain"
+        />
+      </div>
+      </section>
+    </div>
+
+    <div
+      class="flex justify-center items-center gap-12 pt-4 pb-4"
+      style="
+        background: linear-gradient(
+          to bottom,
+          var(--color-lif-300),
+          var(--color-lif-200)
+        );
+      "
+    >
+    
+      <div class="max-w-6xl bg-lif-300 rounded-2xl p-10 shadow-lg"
+      style="background: linear-gradient(to bottom, var(--color-lif), var(--color-lif-300));">
+
+        <h1 class="text-center text-3xl font-bold mb-8 text-lif-700">
+          What LIF Offers You!
+        </h1>
+
+        <div
+      class="mx-auto mb-10"
+      style="height: 2px; max-width: 80%; background-color: #652527;">
+      </div>
+
+        <div class="grid gap-10 md:grid-cols-3 place-items-center">
+
+          <!-- Card 1 -->
+          <div class="bg-lif-400 rounded-2xl py-8 px-8 text-center shadow-md flex flex-col items-center">
+            <img src="images/music.png" alt="relaxingsky" class="w-56 h-40 object-cover rounded-[24px] mb-4">
+            <p class="text-white text-sm leading-snug">
+              We include a relaxing section where you can listen to music and
+              take a break from it all and try focus on your breathing which
+              helps with calming your mind.
+            </p>
+          </div>
+          
+          <!-- Card 2 -->
+          <div class="bg-lif-400 rounded-2xl py-8 px-8 text-center shadow-md flex flex-col items-center">
+            <img src="images/mentalscore.png" alt="relaxingsky" class="w-56 h-40 object-cover rounded-[24px] mb-4">
+            <p class="text-white text-sm leading-snug">
+              We also keep track of your statistics across the app so that we
+              know how we can assist you to the best of our abilities!
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-lif-400 rounded-2xl py-8 px-8 text-center shadow-md flex flex-col items-center">
+            <img src="images/meditate.png" alt="relaxingsky" class="w-56 h-40 object-cover rounded-[24px] mb-4">
+            <p class="text-white text-sm leading-snug">
+              A 5 minute meditation session that we encourage users to
+              part-take in if they’re ever feeling too stressed out or
+              overstimulated.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- User revie and our mission -->
+
+<section
+class="px-page-x py-16"
+style="background: linear-gradient(to bottom, var(--color-lif-200), var(--color-lif-300));"
+>
+<div class="max-w-5xl mx-auto">
+
+  <h2
+    class="text-3xl font-bold text-center mb-10"
+    style="color: var(--color-lif-700);"
+  >
+    User Reviews
+  </h2>
+
+  <div class="grid gap-8 md:grid-cols-3">
+
+    <!-- Petru card -->
+
+    <div
+      class="bg-white rounded-[32px] px-8 py-8 shadow-md flex flex-col items-center text-center"
+    >
+      
+      <div class="mb-4 text-xl text-yellow-400">★★★★★</div>
+
+      
+      <p class="text-sm font-medium mb-6">
+        “LIF has been great for helping me stay mindful and balanced
+        everyday!”
+      </p>
+
+      
+      <img
+        src="images/petru-image.png"
+        alt="Petru"
+        class="w-16 h-16 rounded-full object-cover mb-3"
+      />
+
+      
+      <p class="font-semibold text-sm">Petru S.</p>
+      <p class="text-xs text-gray-500">Ballywaltrim</p>
+    </div>
+
+    <!-- Luca Card -->
+    <div
+      class="bg-white rounded-[32px] px-8 py-8 shadow-md flex flex-col items-center text-center"
+    >
+      <div class="mb-4 text-xl text-yellow-400">★★★★★</div>
+
+      <p class="text-sm font-medium mb-6">
+        “Tracking my mood with LIF has never been easier. It’s an
+        eye-opening app!”
+      </p>
+
+      <img
+        src="images/luca-image.png"
+        alt="Luca"
+        class="w-16 h-16 rounded-full object-cover mb-3"
+      />
+
+      <p class="font-semibold text-sm">Luca D.</p>
+      <p class="text-xs text-gray-500">NYC</p>
+    </div>
+
+    <!-- Josh Card -->
+    <div
+      class="bg-white rounded-[32px] px-8 py-8 shadow-md flex flex-col items-center text-center"
+    >
+      <div class="mb-4 text-xl text-yellow-400">★★★★★</div>
+
+      <p class="text-sm font-medium mb-6">
+        “The LIF daily routines have made a huge difference in my daily
+        life!”
+      </p>
+
+      <img
+        src="images/josh-image.png"
+        alt="Josh"
+        class="w-16 h-16 rounded-full object-cover mb-3"
+      />
+
+      <p class="font-semibold text-sm">Josh G.</p>
+      <p class="text-xs text-gray-500">Centra, Bray</p>
+    </div>
+  </div>
+
+  <!-- divider -->
+  <div
+    class="mt-12 mx-auto"
+    style="height: 2px; max-width: 80%; background-color: #340F11;"
+  ></div>
+
+  <!-- our mission -->
+  <div class="mt-10 text-center mx-auto"
+       style="max-width: 275px;">
+    <h2
+      class="text-3xl font-bold mb-4"
+      style="color: var(--color-lif-700);"
+    >
+      Our Mission
+    </h2>
+
+    <p class="text-mid font-semibold leading-relaxed mb-3 text-lif-800">
+      At LIF, we believe that the power of mindfulness and self-care can
+      transform lives for the better. Our mission is to provide you with
+      the necessary tools and resources to guide you on the way to a
+      balanced lifestyle.
+    </p>
+
+    <p class="text-mid font-semibold leading-relaxed text-lif-800">
+      We are committed to fostering a community of support, growth, and
+      well-being. Join us on your journey to a healthier, happier self.
+    </p>
+  </div>
+</div>
+</section>
+
+<!-- join us today -->
+<section
+  class="px-page-x py-16"
+  style="background: linear-gradient(to bottom, var(--color-lif-300), var(--color-lif-200));"
+>
+  <div class="max-w-5xl mx-auto text-center">
+    
+    
+    <h2
+      class="text-3xl font-bold mb-6"
+      style="color: var(--color-lif-700);"
+    >
+      Join Us Today!
+    </h2>
+
+    <!-- divider -->
+    <div
+      class="mx-auto mb-10"
+      style="height: 2px; max-width: 80%; background-color: #340F11;"
+    ></div>
+
+    <!-- main -->
+    <div
+      class="mx-auto px-10 py-12 rounded-3xl shadow-lg"
+      style="background-color: var(--color-lif-400); max-width: 700px;"
+    >
+    
+      <img
+        src="images/tree1.png"
+        alt="Tree"
+        class="mx-auto w-16 h-16 mb-4"
+      />
+
+    
+      <p class="text-sm text-lif-700 font-semibold mb-4">
+        Enjoy the benefits of our app today with thousands<br />
+        of other users!
+      </p>
+
+  
+      <div class="text-yellow-400 text-xl mb-2">★★★★★</div>
+
+    
+      <p class="text-tiny text-lif-700">
+        Rated 5/5 by More<br />
+        than 75% Users
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer
+  class="px-page-x md:px-10 py-12 md:py-16 text-sm"
+  style="background: linear-gradient(to bottom, var(--color-lif-200), var(--color-lif-foot));"
+>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-12 items-start">
+    
+    
+    <div class="flex flex-col gap-4 items-center">
+      <h3 class="font-bold ">LIF. FOR YOU</h3>
+
+      
+      <div class="flex flex-col gap-2">
+        <img src="images/google.png" class="w-32" />
+        <img src="images/appstore.png" class="w-32" />
+        <img src="images/appicon.png" class="w-32">
+      </div>
+
+      
+    </div>
+
+   
+    <div class="flex flex-col gap-2 items-center">
+      <h4 class="font-semibold">Features</h4>
+      <a href="#" class="hover:underline">What's New</a>
+      <a href="#" class="hover:underline">About us</a>
+      <a href="#" class="hover:underline">Partners</a>
+      <a href="#" class="hover:underline">Contact us</a>
+    </div>
+
+    
+    <div class="flex flex-col gap-2 items-center">
+      <h4 class="font-semibold">Support</h4>
+      <a href="#" class="hover:underline">Business</a>
+      <a href="#" class="hover:underline">Careers</a>
+      <a href="#" class="hover:underline">News</a>
+      <a href="#" class="hover:underline">Terms</a>
+    </div>
+
+   
+    <div class="flex flex-col gap-2 items-center">
+      <h4 class="font-semibold">Features</h4>
+      <a href="#" class="hover:underline">What's New</a>
+      <a href="#" class="hover:underline">About us</a>
+      <a href="#" class="hover:underline">Partners</a>
+      <a href="#" class="hover:underline">Contact us</a>
+    </div>
+
+    
+    <div class="flex flex-col gap-2 items-center">
+      <h4 class="font-semibold">Support</h4>
+      <a href="#" class="hover:underline">Business</a>
+      <a href="#" class="hover:underline">Careers</a>
+      <a href="#" class="hover:underline">News</a>
+      <a href="#" class="hover:underline">Terms</a>
+    </div>
+
+  </div>
+</footer>
+
+    
+  </body>
+</html>
